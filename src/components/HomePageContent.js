@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomePageContent() {
   return (
-    <section className="banner" id="home">
+    <section className="uprightbg" id="home">
       <div className="introduction">
           <h2>my name is</h2>
           <h1>
@@ -10,7 +10,7 @@ export default function HomePageContent() {
             <span>I</span>
             <span>N</span>
             <span>G</span>
-            <span> J</span>
+            <span><br/>J</span>
             <span>E</span>
             <span>N</span>
           </h1>

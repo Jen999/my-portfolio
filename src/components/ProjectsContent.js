@@ -3,7 +3,7 @@ import React from "react";
 export default function ProjectsContent() {
     return (
         <section id="projects">
-            <div className="projectsbackground"></div>
+            <div className="uprightbg"></div>
             <div className="projects">
                 <header><span className="sectheaders">Projects</span></header>
                 <div className="projtitle">

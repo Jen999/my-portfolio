@@ -5,7 +5,7 @@ import toggle from "../functions/toggle";
 export default function EducationContent() {
     return (
         <section id="education">
-        <div className="educationbackground"></div>
+        <div className="uprightbg"></div>
             <div className="education">
                 <header><span className="sectheaders">Education</span></header>
                 <div className="edutitle">

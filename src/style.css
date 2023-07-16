@@ -38,6 +38,18 @@ header {
     transform: scaleY(-1);
     z-index: -1;
 }
+.uprightbg {
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    background-color:hsla(213,24%,16%,1);
+    background-image: 
+    radial-gradient(at 3% 91%, hsla(177,40%,45%,0.1) 0px, transparent 50%),
+    radial-gradient(at 53% 94%, hsla(197,34%,30%,0.27) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(181,40%,18%,0.07) 0px, transparent 50%),
+    radial-gradient(at 28% 14%, hsla(173,27%,38%,0.08) 0px, transparent 50%);
+    z-index: -1;
+}
 .togglebox {
     width: fit-content;
     top: 10%;
@@ -59,7 +71,7 @@ header {
 }
 .togglebox.active {
     top: 10%;
-    left: 2%;
+    left: 3%;
 }
 .active .line1 {
     transform: translate(0, 12px)rotate(45deg);
@@ -74,15 +86,7 @@ header {
     width: 35px;
     background-color: #fff;
 }
-.banner {
-    width: 100%;
-    height: 1200px;
-    background-color:hsla(213,24%,16%,1);
-    background-image: 
-    radial-gradient(at 3% 91%, hsla(177,40%,45%,0.1) 0px, transparent 50%),
-    radial-gradient(at 53% 94%, hsla(197,34%,30%,0.27) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(181,40%,18%,0.07) 0px, transparent 50%),
-    radial-gradient(at 28% 14%, hsla(173,27%,38%,0.08) 0px, transparent 50%);
+#home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,9 +98,7 @@ header {
     width: fit-content;
     height: fit-content;
     background: transparent;
-    padding: 55px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 20px 60px;
     cursor: default;
     white-space: nowrap;
     border-radius: 30px;
@@ -129,11 +131,10 @@ header {
 }
 .introduction h2 {
     color: #fff;
-    font-size: 35px;
-    line-height: 0.5em;
+    font-size: 38px;
     font-weight: 300;
+    margin-bottom: 10px;
     letter-spacing: 0.5em;
-    margin-bottom: 40px;
     width: fit-content;
 }
 .introduction:hover h2 {
@@ -147,8 +148,7 @@ header {
 .introduction h1 span {
     width: fit-content;
     color: #1b4142;
-    font-size: 250px;
-    font-weight: 700;
+    font-size: 320px;
     line-height: 0.7em;
     animation: pulse 4s linear infinite;
 }
@@ -193,43 +193,15 @@ header {
     }
 }
 .introduction p {
-    font-size: 18px;
+    font-size: 20px;
     color: #c5c6c7;
     letter-spacing: 0.35em;
-    margin-top: 5%;
-    margin-left: 53%;
+    margin-top: 10px;
     width: fit-content;
+    transition: 0.5s;
 }
 .introduction:hover p {
     color: #fff;
-}
-@media (max-width: 1700px) {
-    .introduction {
-        width: 800px;
-        padding: 35px;
-        padding-top: 30px;
-        padding-bottom: 25px;
-        border-radius: 40px;
-    }
-    .introduction h1 {
-        width: fit-content;
-        margin-left: 13%;
-    }
-    .introduction h1 span {
-        font-size: 240px;
-        white-space: wrap;
-        display: wrap;
-    }
-    .introduction h2 {
-        margin-bottom: 20px;
-        margin-left: 5px;
-        font-size: 25px;
-    }
-    .introduction p {
-        margin-left: 350px;
-        margin-top: 20px;
-        font-size: 14px;
-    }
 }
 @media (max-width: 1500px) {
     .togglebox {
@@ -238,31 +210,24 @@ header {
     }
     .togglebox.active {
         top: 6%;
-        left: 2%;
+        left: 1%;
     }
     .active .line1, .active .line3 {
         width: 30px;
     }
 }
-@media (max-width: 1200px) {
-    .introduction {
-        width: 66vw;
-        padding: 2em;
-        border-radius: 40px;
-    }
+@media (max-width: 1300px) {
     .introduction h1 span {
-        font-size: 20vw;
+        font-size: 25vw;
     }
     .introduction h2 {
-        margin-left: 0.4vw;
-        font-size: 2.1vw;
+        font-size: 2.95vw;
     }
     .introduction p {
-        margin-left: 26.5vw;
-        font-size: 1.18vw;
+        font-size: 1.55vw;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .togglebox {
         top: 3%;
         left: 6%;
@@ -289,30 +254,10 @@ header {
         transform: translate(0, -8px)rotate(-45deg);
     }
 }
-@media (max-width: 850px) {
-    .introduction {
-        position: absolute;
-        top: 38vh;
-        width: 90vw;
-        padding: 35px;
-    }
-    .introduction h1 {
-        margin-left: 20%;
-    }
-    .introduction h2 {
-        font-size: 2.3vw;
-        margin-top: -10px;
-    }
-    .introduction p {
-        margin-left: 38vw;
-        margin-bottom: -10px;
-        font-size: 1.5vw;
-    }
-}
 @media (max-width: 620px) {
     .introduction {
-        border-radius: 30px;
-        padding: 30px;
+        padding: 15px 30px;
+        border-radius: 25px;
     }
     .introduction h1 {
         margin-left: 0;
@@ -325,15 +270,13 @@ header {
         margin-left: 0;
     }
     .introduction p {
-        margin-left: 0%;
-        margin-top: 10px;
         font-size: 14px;
         white-space: wrap;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
     .introduction {
-        padding-left: 20px;
+        padding: 10px 25px;
     }
     .introduction h1 span {
         font-size: 140px;
@@ -344,28 +287,23 @@ header {
     .introduction p {
         font-size: 12px;
     }
+    .active .line1, .active .line3 {
+        width: 20px;
+    }
 }
 @media (max-width: 410px) {
     .introduction {
-        border-radius: 30px;
-        padding: 30px;
-        padding-left: 20px;
-    }
-    .introduction h1 {
-        margin-left: 0;
+        border-radius: 20px;
+        padding: 10px 20px;
+        max-width: 95vw;
     }
     .introduction h1 span {
-        font-size: 110px;
+        font-size: 120px;
     }
     .introduction h2 {
         font-size: 16px;
-        margin-top: -15px;
-        margin-left: 0;
     }
     .introduction p {
-        margin-left: 0%;
-        margin-top: 10px;
-        margin-bottom: -15px;
         font-size: 10px;
         white-space: wrap;
     }
@@ -382,7 +320,7 @@ header {
 .links p {
     display: inline-block;
     position: relative;
-    padding: 0.6em 0.8em;
+    padding: 0.5em 0.7em;
     border: 0.05em solid #45a29e;
     color: #45a29e;
     text-decoration: none;
@@ -401,7 +339,7 @@ header {
 }
 .links p span:nth-child(1) {
     width: 100%;
-    height: 0.04em;
+    height: 0.05em;
     background: #fff;
     margin-top: 1%;
     bottom: 0;
@@ -415,9 +353,9 @@ header {
 }
 .links p span:nth-child(2) {
     width: 0.05em;
-    height: 100%;
+    height: 103%;
     background: #fff;
-    margin-left: 100%;
+    margin-left: 99.9%;
     margin-top: 1%;
     transform-origin: top;
     transform: scaleY(0);
@@ -443,9 +381,10 @@ header {
 }
 .links p span:nth-child(4) {
     width: 0.05em;
-    height: 100%;
+    height: 103%;
     background: #fff;
     margin-top: 1%;
+    margin-left: -0.1%;
     bottom: 0;
     right: 0;
     transform-origin: bottom;
@@ -576,30 +515,9 @@ button:hover span {
         padding-left: 30px;
     }
 }
-@media (max-width: 900px) {
-    .navbar ul {
-        top: 8%;
-    }
-    .navbar ul li a {
-        margin-bottom: 30px;
-        font-size: 14px;
-        padding-left: 20px;
-    }
-    #navbar ul li a:hover {
-        padding-left: 35px;
-    }
-}
-@media (max-width: 620px) {
-    .links {
-        top: 3%;
-        right: 3%;
-    }
+@media (max-width: 1000px) {
     .links p {
-        font-size: 13px;
-        padding: 0.7em 0.7em;
-    }
-    button {
-        font-size: 10px;
+        font-size: 16px;
     }
     .navbar ul {
         top: 7%;
@@ -615,11 +533,12 @@ button:hover span {
 }
 @media (max-width: 500px) {
     button {
+        width: 7.5em;
         padding: 0.4em;
-        margin-top: 22px;
+        margin-top: 30px;
     }
     .navbar ul {
-        top: 8vh;
+        top: 7vh;
     }
     .navbar ul li a {
         margin-bottom: 1.5vh;
@@ -825,18 +744,6 @@ button:hover span {
         font-size: 14px;
         line-height: 1.5em;
     }
-}
-.educationbackground {
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    background-color:hsla(213,24%,16%,1);
-    background-image: 
-    radial-gradient(at 3% 91%, hsla(177,40%,45%,0.1) 0px, transparent 50%),
-    radial-gradient(at 53% 94%, hsla(197,34%,30%,0.27) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(181,40%,18%,0.07) 0px, transparent 50%),
-    radial-gradient(at 28% 14%, hsla(173,27%,38%,0.08) 0px, transparent 50%);
-    z-index: -1;
 }
 .education {
     position: relative;
@@ -1147,18 +1054,6 @@ button:hover span {
         font-size: 13px;
         margin: 3px 3px 0px 0;
     }
-}
-.projectsbackground {
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    background-color:hsla(213,24%,16%,1);
-    background-image: 
-    radial-gradient(at 3% 91%, hsla(177,40%,45%,0.1) 0px, transparent 50%),
-    radial-gradient(at 53% 94%, hsla(197,34%,30%,0.27) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(181,40%,18%,0.07) 0px, transparent 50%),
-    radial-gradient(at 28% 14%, hsla(173,27%,38%,0.08) 0px, transparent 50%);
-    z-index: -1;
 }
 .projects {
     position: relative;
