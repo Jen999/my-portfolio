@@ -1,5 +1,5 @@
-import React from "react"
-import redirect from "../functions/redirect"
+import React from "react";
+import redirect from "../functions/redirect";
 
 export default function AboutMeContent() {
     return (

@@ -1,6 +1,6 @@
-import React from "react"
-import redirect from "../functions/redirect"
-import toggle from "../functions/toggle"
+import React from "react";
+import redirect from "../functions/redirect";
+import toggle from "../functions/toggle";
 
 export default function EducationContent() {
     return (
