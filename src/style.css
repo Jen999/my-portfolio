@@ -92,13 +92,14 @@ header {
 }
 .introduction {
     width: fit-content;
+    max-width: fit-content;
     height: fit-content;
     background: transparent;
     padding: 55px;
     padding-top: 40px;
     padding-bottom: 40px;
     cursor: default;
-    white-space: nowrap;
+    white-space: wrap;
     border-radius: 30px;
     overflow: hidden;
     transition: 0.5s;
