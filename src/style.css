@@ -59,7 +59,7 @@ header {
 }
 .togglebox.active {
     top: 10%;
-    left: 3%;
+    left: 2%;
 }
 .active .line1 {
     transform: translate(0, 12px)rotate(45deg);
@@ -92,14 +92,13 @@ header {
 }
 .introduction {
     width: fit-content;
-    max-width: fit-content;
     height: fit-content;
     background: transparent;
     padding: 55px;
     padding-top: 40px;
     padding-bottom: 40px;
     cursor: default;
-    white-space: wrap;
+    white-space: nowrap;
     border-radius: 30px;
     overflow: hidden;
     transition: 0.5s;
@@ -384,6 +383,7 @@ header {
     display: inline-block;
     position: relative;
     padding: 0.6em 0.8em;
+    border: 0.05em solid #45a29e;
     color: #45a29e;
     text-decoration: none;
     font-size: 21px;
@@ -401,8 +401,9 @@ header {
 }
 .links p span:nth-child(1) {
     width: 100%;
-    height: 0.08em;
-    background: #45a29e;
+    height: 0.04em;
+    background: #fff;
+    margin-top: 1%;
     bottom: 0;
     left: 0;
     transform-origin: left;
@@ -413,10 +414,11 @@ header {
     transition: 0.1s;
 }
 .links p span:nth-child(2) {
-    width: 0.1em;
-    height: 105%;
-    background: #45a29e;
-    margin-left: 99%;
+    width: 0.05em;
+    height: 100%;
+    background: #fff;
+    margin-left: 100%;
+    margin-top: 1%;
     transform-origin: top;
     transform: scaleY(0);
 }
@@ -427,9 +429,9 @@ header {
 }
 .links p span:nth-child(3) {
     width: 100%;
-    height: 0.08em;
-    background: #45a29e;
-    top: 97%;
+    height: 0.04em;
+    background: #fff;
+    top: 100%;
     left: 0;
     transform-origin: right;
     transform: scaleX(0);
@@ -440,9 +442,10 @@ header {
     transition-delay: 0.2s;
 }
 .links p span:nth-child(4) {
-    width: 0.1em;
-    height: 105%;
-    background: #45a29e;
+    width: 0.05em;
+    height: 100%;
+    background: #fff;
+    margin-top: 1%;
     bottom: 0;
     right: 0;
     transform-origin: bottom;
@@ -667,8 +670,9 @@ button:hover span {
 .profpic {
     position: relative;
     display: flex;
-    height: fit-content;
+    height: 360px;
     width: 360px;
+    object-fit: cover;
     border-radius: 35px;
     margin-right: 20px;
 }
@@ -761,6 +765,7 @@ button:hover span {
         padding-left: 10px;
         display: flex;
         width: 300px;
+        height: 300px;
     }
     .aboutme h2 {
         position: relative;
@@ -787,14 +792,10 @@ button:hover span {
         line-height: 1.8em;
     }
     .profpic {
-        position: relative;
         margin-top: -32%;
         margin-left: 12px;
-        display: flex;
-        width: 300px;
     }
     .aboutme h2 {
-        position: relative;
         display: block;
         font-size: 14px;
         margin-left: 15px;
@@ -808,6 +809,8 @@ button:hover span {
 @media (max-width: 325px) {
     .profpic {
         width: 90vw;
+        height: 90vw;
+        object-fit: cover;
     }
     .aboutme h2 {
         position: relative;
