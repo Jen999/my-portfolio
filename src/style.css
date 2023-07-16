@@ -256,8 +256,10 @@ header {
 }
 @media (max-width: 620px) {
     .introduction {
+        position: absolute;
         padding: 15px 30px;
         border-radius: 25px;
+        top: 39vh;
     }
     .introduction h1 {
         margin-left: 0;
@@ -326,7 +328,7 @@ header {
     text-decoration: none;
     font-size: 21px;
     font-weight: 500;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.12em;
     transition: 0.5s;
     z-index: 3;
 }
@@ -517,7 +519,7 @@ button:hover span {
 }
 @media (max-width: 1000px) {
     .links p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .navbar ul {
         top: 7%;
@@ -534,14 +536,15 @@ button:hover span {
 @media (max-width: 500px) {
     button {
         width: 7.5em;
-        padding: 0.4em;
-        margin-top: 30px;
+        padding: 0.35em;
+        margin-top: 27px;
+        font-size: 12px;
     }
     .navbar ul {
-        top: 7vh;
+        top: 8vh;
     }
     .navbar ul li a {
-        margin-bottom: 1.5vh;
+        margin-bottom: 1vh;
         font-size: 3.5vw;
         padding-left: 10px;
     }
