@@ -71,7 +71,7 @@ header {
 }
 .togglebox.active {
     top: 10%;
-    left: 3%;
+    left: 2.5%;
 }
 .active .line1 {
     transform: translate(0, 12px)rotate(45deg);
@@ -116,9 +116,9 @@ header {
     content: '';
     position: absolute;
     width: 300px;
-    height: 500px;
+    height: 650px;
     background: rgba(179, 236, 236, 0.5);
-    transform: skewX(45deg) translateX(1500px) translateY(-75px);
+    transform: skewX(45deg) translateX(1500px) translateY(-40px);
     transition: 0.5s;
     opacity: 0;
     z-index: -1;
@@ -126,7 +126,7 @@ header {
 .introduction:hover::before {
     position: absolute;
     background: rgba(179, 236, 236, 0.5);
-    transform: skewX(45deg) translateX(-700px) translateY(-75px);
+    transform: skewX(45deg) translateX(-750px) translateY(-40px);
     opacity: 1;
 }
 .introduction h2 {
@@ -369,7 +369,7 @@ header {
 }
 .links p span:nth-child(3) {
     width: 100%;
-    height: 0.04em;
+    height: 0.05em;
     background: #fff;
     top: 100%;
     left: 0;
@@ -598,11 +598,11 @@ button:hover span {
     border-radius: 35px;
     margin-right: 20px;
 }
-.aboutme h2 {
+.aboutmetext {
     color: #fff;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 210px;
     letter-spacing: 0.07em;
     word-spacing: 0.07em;
     font-style: italic;
@@ -610,24 +610,12 @@ button:hover span {
     padding-right: 15px;
     white-space: nowrap;
 }
-.cv {
-    font-weight: 200;
-    font-style: normal;
-    height: fit-content;
-    position: relative;
-    color: #45a29e;
-    border: 0.05em solid #45a29e;
-    cursor: pointer;
-    padding: 0.15em 0.6em;
-    border-radius: 0.2em;
-    transition: 0.3s;
-    white-space: nowrap;
+.aboutmetext .view {
+    margin-top: 10px;
+    margin-left: 0;
 }
-.cv:hover {
-    color: #fff;
-    text-shadow: 0 0 20px #66fcf1;
-    border: 0.02em solid #dedfe0;
-    box-shadow: 0 0 10px #66fcf1;
+.aboutmetext a {
+    text-decoration: none;
 }
 .underline {
     text-decoration: none;
@@ -689,15 +677,17 @@ button:hover span {
         width: 300px;
         height: 300px;
     }
-    .aboutme h2 {
+    .aboutmetext {
         position: relative;
         margin-top: 0;
         top: 0%;
-        display: flex;
+        display: block;
     }
-    .cv {
-        margin-top: 10px;
-        margin-left: 50px;
+    .aboutmetext .view {
+        margin-top: 0;
+    }
+    .aboutme p {
+        top: 53%;
     }
 }
 @media (max-width: 620px) {
@@ -709,7 +699,7 @@ button:hover span {
     }
     .aboutme p {
         position: absolute;
-        top: 39%;
+        top: 40%;
         font-size: 14px;
         line-height: 1.8em;
     }
@@ -743,7 +733,7 @@ button:hover span {
     }
     .aboutme p {
         position: absolute;
-        top: 140vw;
+        top: 150vw;
         font-size: 14px;
         line-height: 1.5em;
     }
@@ -933,6 +923,8 @@ button:hover span {
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    border-top: 1.5px solid rgba(255, 255, 255, 0);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0);
 }
 .cards h2 {
     font-weight: 400;
@@ -988,6 +980,31 @@ button:hover span {
     font-size: 15px;
     font-weight: 500;
     white-space: nowrap;
+}
+.view {
+    cursor: pointer;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c5c6c7;
+    transition: 0.3s;
+}
+.exptitle a {
+    text-decoration: none;
+}
+.view:hover {
+    color: #fff;
+    text-shadow: 0 0 3px #66fcf1;
+}
+.view::after {
+    content: " →";
+    white-space: pre;
+    color: #c5c6c7;
+}
+.view:hover::after {
+    content: "    →";
+    color: #fff;
+    text-shadow: 0 0 5px #66fcf1;
 }
 @media (max-width: 920px) {
     .cards {

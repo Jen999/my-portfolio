@@ -9,10 +9,11 @@ export default function AboutMeContent() {
                 <header><span className="sectheaders">About Me</span></header>
                 <div>
                 <img src="./publicimages/profpic.jpg" className="profpic" alt="Not Found"></img>
-                    <h2>
+                    <h2 className="aboutmetext">
                     Based in Singapore<br/>
-                    NUS EEE | NCS Systems Engineer Intern<br/><br/>
-                    <span className="cv">Get CV</span>
+                    NUS EEE | NCS Systems Engineer Intern
+                    <a href="#education"><h2 className="view">View Education</h2></a>
+                    <a href="#experience"><h2 className="view">View Experience</h2></a>
                     </h2>
                 </div>
                 <p>

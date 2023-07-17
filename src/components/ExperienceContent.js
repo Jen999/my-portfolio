@@ -43,6 +43,7 @@ export default function ExperienceContent() {
                             <li>System Architecture</li>
                         </ol>
                     </p>
+                    <a target="_blank" rel="noopener noreferrer" href="./Tan_Ling_Jen_Resume.pdf"><h2 className="view">View Full Résumé</h2></a>
                 </div>
             </div>
             
