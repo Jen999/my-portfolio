@@ -796,10 +796,10 @@ button:hover span {
         display: block;
     }
     .aboutmetext .view {
-        margin-top: 0;
+        margin-top: -5px;
     }
     .aboutme p {
-        top: 53%;
+        top: 54%;
     }
 }
 @media (max-width: 620px) {
@@ -810,7 +810,7 @@ button:hover span {
         font-size: 20px;
     }
     .aboutme p {
-        top: 40%;
+        top: 41%;
         font-size: 14px;
         line-height: 1.8em;
     }
@@ -824,9 +824,12 @@ button:hover span {
         margin-left: 15px;
         margin-top: 5px;
     }
-    .cv {
-        top: -10px;
+    .aboutmetext .view {
+        margin-top: 5px;
         margin-left: 0;
+    }
+    .aboutmetext .view a {
+        font-size: 14px;
     }
 }
 @media (max-width: 325px) {
@@ -843,7 +846,7 @@ button:hover span {
         margin-top: 5px;
     }
     .aboutme p {
-        top: 150vw;
+        top: 155vw;
         font-size: 14px;
         line-height: 1.5em;
     }
