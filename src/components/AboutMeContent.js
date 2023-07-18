@@ -12,8 +12,8 @@ export default function AboutMeContent() {
                     <h2 className="aboutmetext">
                     Based in Singapore<br/>
                     NUS EEE | NCS Systems Engineer Intern
-                    <a href="#education"><h2 className="view">View Education</h2></a>
-                    <a href="#experience"><h2 className="view">View Experience</h2></a>
+                        <h2 className="view"><a href="#education">View Education</a></h2>
+                        <h2 className="view"><a href="#experience">View Experience</a></h2>
                     </h2>
                 </div>
                 <p>
