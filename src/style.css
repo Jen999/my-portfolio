@@ -25,6 +25,11 @@ header {
     letter-spacing: 5px;
     text-shadow: 0 0 5px #66fcf1;
 }
+#light .sectheaders {
+    color: #41403f;
+    font-weight: 600;
+    text-shadow: none;
+}
 .rotatedbg {
     position: absolute;
     width: 100%;
@@ -50,6 +55,10 @@ header {
     radial-gradient(at 28% 14%, hsla(173,27%,38%,0.08) 0px, transparent 50%);
     z-index: -1;
 }
+#light .rotatedbg, #light .uprightbg {
+    background-color: #f5f6ed;
+    background-image: none;
+}
 .togglebox {
     width: fit-content;
     top: 10%;
@@ -62,6 +71,9 @@ header {
 .togglebox:hover .line1, .togglebox:hover .line2, .togglebox:hover .line3 {
     background-color: #66fcf1;
 }
+#light .togglebox:hover .line1, #light .togglebox:hover .line2, #light .togglebox:hover .line3 {
+    background-color: #ccb8a5;
+}
 .line1, .line2, .line3 {
     width: 40px;
     height: 2px;
@@ -69,9 +81,8 @@ header {
     background-color: #45a29e;
     transition: 0.6s;
 }
-.togglebox.active {
-    top: 10%;
-    left: 2.5%;
+#light .line1, #light .line2, #light .line3 {
+    background-color: #4c2818;
 }
 .active .line1 {
     transform: translate(0, 12px)rotate(45deg);
@@ -85,6 +96,39 @@ header {
     transform: translate(0, -12px)rotate(-45deg);
     width: 35px;
     background-color: #fff;
+}
+.mode {
+    position: absolute;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-left: 5px;
+    top: 10%;
+    left: 11%;
+    z-index: 11;
+}
+.moon {
+    position: absolute;
+    color: #4c2818;
+    z-index: 11;
+    transition: 0.5s;
+    font-size: 30px;
+}
+.moon:hover {
+    color: #ccb8a5;
+}
+.sun {
+    color: #45a29e;
+    z-index: 11;
+    transition: 0.5s;
+    font-size: 31px;
+}
+.sun:hover {
+    color: #66fcf1;
+}
+#dark .moon, #light .sun {
+    transform: translateY(15px);
+    opacity: 0;
+    z-index: -1;
 }
 #home {
     display: flex;
@@ -107,10 +151,18 @@ header {
 }
 .introduction:hover {
     box-shadow: 0 0 10px #fff, 0 0 30px #66fcf1, 0 0 50px #45a29e;
-    opacity: 100%;
     background: rgba(31, 40, 51, 1);
     scale: 102%;
-    transition: 0.5s;
+}
+#light .introduction {
+    background-color: #f5f6ed;
+}
+#light .introduction:hover {
+    background-color: #5e5e5e;
+    box-shadow: none;
+}
+#light .introduction::before {
+    background: rgba(253, 246, 233, 0.5);
 }
 .introduction::before {
     content: '';
@@ -125,7 +177,6 @@ header {
 }
 .introduction:hover::before {
     position: absolute;
-    background: rgba(179, 236, 236, 0.5);
     transform: skewX(45deg) translateX(-750px) translateY(-40px);
     opacity: 1;
 }
@@ -136,10 +187,10 @@ header {
     margin-bottom: 10px;
     letter-spacing: 0.5em;
     width: fit-content;
+    transition: 0.5s;
 }
 .introduction:hover h2 {
     text-shadow: 0 0 10px #66fcf1;
-    transition: 0.5s;
 }
 .introduction h1 {
     display: block;
@@ -152,25 +203,25 @@ header {
     line-height: 0.7em;
     animation: pulse 4s linear infinite;
 }
-.introduction h1 span:nth-child(1) {
+#light .introduction h1 span:nth-child(1), .introduction h1 span:nth-child(1) {
     animation-delay: 2.7s;
 }
-.introduction h1 span:nth-child(2) {
+#light .introduction h1 span:nth-child(2), .introduction h1 span:nth-child(2) {
     animation-delay: 2.8s;
 }
-.introduction h1 span:nth-child(3) {
+#light .introduction h1 span:nth-child(3), .introduction h1 span:nth-child(3) {
     animation-delay: 2.9s;
 }
-.introduction h1 span:nth-child(4) {
+#light .introduction h1 span:nth-child(4), .introduction h1 span:nth-child(4) {
     animation-delay: 3s;
 }
-.introduction h1 span:nth-child(5) {
+#light .introduction h1 span:nth-child(5), .introduction h1 span:nth-child(5) {
     animation-delay: 3.1s;
 }
-.introduction h1 span:nth-child(6) {
+#light .introduction h1 span:nth-child(6), .introduction h1 span:nth-child(6) {
     animation-delay: 3.2s;
 }
-.introduction h1 span:nth-child(7) {
+#light .introduction h1 span:nth-child(7), .introduction h1 span:nth-child(7) {
     animation-delay: 3.3s;
 }
 @keyframes pulse {
@@ -192,6 +243,25 @@ header {
                     0 0 20px #66fcf1;
     }
 }
+#light .introduction h1 span {
+    color: #e6dacf;
+    animation: lightpulse 4s linear infinite;
+}
+@keyframes lightpulse {
+    0%, 10% {
+        color: #e6dacf;
+    }
+    20%, 25% {
+        color: #967969;
+        text-shadow: none;
+    }
+    30%, 40%{
+        color: #4c2818;
+    }
+    50%, 60% {
+        color: #41403f;
+    }
+}
 .introduction p {
     font-size: 20px;
     color: #c5c6c7;
@@ -203,14 +273,21 @@ header {
 .introduction:hover p {
     color: #fff;
 }
+#light .introduction h2, #light .introduction p {
+    color: #4c2818;
+}
+#light .introduction:hover h2, #light .introduction:hover p {
+    color: #dbcdc0;
+    text-shadow: none;
+}
 @media (max-width: 1500px) {
     .togglebox {
         top: 3%;
         left: 5%;
     }
-    .togglebox.active {
-        top: 6%;
-        left: 1%;
+    .mode {
+        top: 3%;
+        left: 10%;
     }
     .active .line1, .active .line3 {
         width: 30px;
@@ -232,14 +309,21 @@ header {
         top: 3%;
         left: 6%;
     }
+    .mode {
+        top: 3%;
+        left: 12%;
+        padding-top: 5px;
+    }
+    .moon {
+        font-size: 22px;
+    }
+    .sun {
+        font-size: 21px;
+    }
     .line1, .line2, .line3 {
         width: 30px;
         height: 1px;
         margin: 7px 0px;
-    }
-    .togglebox.active {
-        top: 3%;
-        left: 3%;
     }
     .active .line1, .active .line3 {
         width: 25px;
@@ -255,6 +339,9 @@ header {
     }
 }
 @media (max-width: 620px) {
+    .mode {
+        left: 16%;
+    }
     .introduction {
         position: absolute;
         padding: 15px 30px;
@@ -294,6 +381,9 @@ header {
     }
 }
 @media (max-width: 410px) {
+    .mode {
+        left: 18%;
+    }
     .introduction {
         border-radius: 20px;
         padding: 10px 20px;
@@ -357,7 +447,7 @@ header {
     width: 0.05em;
     height: 103%;
     background: #fff;
-    margin-left: 99.9%;
+    margin-left: 100%;
     margin-top: 1%;
     transform-origin: top;
     transform: scaleY(0);
@@ -386,11 +476,25 @@ header {
     height: 103%;
     background: #fff;
     margin-top: 1%;
-    margin-left: -0.1%;
+    margin-left: -0.3%;
     bottom: 0;
     right: 0;
     transform-origin: bottom;
     transform: scaleY(0);
+}
+#light .links p {
+    border: 0.05em solid #4c2818;
+    color: #4c2818;
+}
+#light .links p:hover {
+    transform: translateY(5px);
+    color: #ccb8a5;
+    text-shadow: none;
+    box-shadow: none;
+    transition-delay: 0.3s;
+}
+#light .links p span:nth-child(1), #light .links p span:nth-child(2), #light .links p span:nth-child(3), #light .links p span:nth-child(4) {
+    background: #ccb8a5;
 }
 .links p:hover span:nth-child(4) {
     transform: scaleY(1);
@@ -451,6 +555,16 @@ button:hover {
 button:hover span {
     width: 100%;
 }
+#light button {
+    color: #4d4d4d;
+    border: 0.12em solid #4d4d4d;
+}
+#light button:hover {
+    color: #4d4d4d;
+    font-weight: 600;
+    text-shadow: none;
+    box-shadow: none;
+}
 .navbar {
     position: absolute;
     top: 0;
@@ -467,7 +581,6 @@ button:hover span {
     display: flex;
     flex-direction: column;
     top: 20%;
-    transition: 0.5s;
     white-space: nowrap;
 }
 .navbar ul li a {
@@ -496,6 +609,11 @@ button:hover span {
     text-shadow: 0 0 10px #66fcf1;
     letter-spacing: 0.5em;
     transition: 0.5s;
+    transition-delay: 0s;
+}
+#light .navbar ul li a {
+    color: #41403f;
+    text-shadow: none;
 }
 @media (max-width: 1500px) {
     .links {
@@ -562,7 +680,6 @@ button:hover span {
     position: relative;
     display: flex;
     justify-content: center;
-    transition: 0.7s;
     flex: 1;
     z-index: 5;
 }
@@ -645,6 +762,20 @@ button:hover span {
     box-shadow: 0 0 10px #66fcf1;
     transition: 0.5s;
     animation: none;
+}
+#light .underline {
+    color: #4c2818;
+    text-shadow: none;
+}
+#light .underline::after {
+    background-color: #4c2818;
+}
+#light .underline:hover {
+    color: #ccb8a5;
+}
+#light .underline:hover::after {
+    background-color: #ccb8a5;
+    box-shadow: none;
 }
 @keyframes linedraw {
     0%, 20%{
@@ -760,14 +891,12 @@ button:hover span {
 .school {
     width: fit-content;
     height: fit-content;
-    transition: 0.5s;
 }
 .school h2 {
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
     color: #fff;
-    transition: 0.5s;
     white-space: nowrap;
     margin-bottom: -20px;
     justify-content: space-between;
@@ -801,7 +930,6 @@ button:hover span {
     text-decoration: underline;
     cursor: pointer;
     font-weight: 400;
-    max-width: fit-content;
     display: block;
     transition: 0.5s;
 }
@@ -815,10 +943,11 @@ button:hover span {
     text-shadow: 0 0 10px #66fcf1;
 }
 .listheaders::after {
-    content: " ▼";
+    content: "   →";
+    white-space: pre;
 }
 .software.active .listheaders::after, .ee.active .listheaders::after, .math.active .listheaders::after {
-    content: " ▶";
+    content: " →";
 }
 .softwaremodules, .eemodules, .mathmodules {
     color: #45a29e;
@@ -840,6 +969,23 @@ button:hover span {
     transition: 0.5s;
     margin-left: 40px;
 }
+#light .school h2 span {
+    opacity: 0.8;
+}
+#light .coursestaken, #light .listheaders {
+    font-weight: 600;
+}
+#light .listheaders:hover, #light .software.active .listheaders:hover, #light .ee.active .listheaders:hover, #light .math.active .listheaders:hover {
+    color: #ccb8a5;
+    text-shadow: none;
+}
+#light .navbar ul li a, #light .software.active .listheaders, #light .ee.active .listheaders, #light .math.active .listheaders {
+    color: #4d4d4d;
+}
+#light .softwaremodules li:hover, #light .eemodules li:hover, #light .mathmodules li:hover {
+    color: #967969;
+    text-decoration: underline;
+}
 @media (max-width: 850px) {
     .school ul li {
         width: 70vw;
@@ -856,37 +1002,27 @@ button:hover span {
     }
 }
 @media (max-width: 620px) {
+    .edutitle, .school ul li {
+        max-width: 95vw;
+    }
     .education header {
         top: 3%;
     }
-    .school ul li {
-        width: 90vw;
-        margin-right: 20px;
-    }
     .edutitle {
         top: 7%;
-        margin-left: 20px;
     }
 }
 @media (max-width: 410px){
-    .edutitle {
+    .edutitle, .school ul li, .school h2 span {
         font-size: 14px;
     }
     .school h2 {
         font-size: 16px;
     }
-    .school h2 span {
-        font-size: 14px;
-    }
     .school ul {
         margin-left: 20px;
     }
-    .school ul li {
-        font-size: 14px;
-        width: 90vw;
-    }
     .school ul li ul {
-        margin-left: 10px;
         line-height: 14px;
     }
     .school ul li ul li {
@@ -981,6 +1117,28 @@ button:hover span {
     font-weight: 500;
     white-space: nowrap;
 }
+#light .aboutme p, #light .aboutmetext, #light .edutitle, #light .school ul li, #light .exptitle, #light .cards ul li, #light .projcards {
+    color: #4d4d4d;
+    font-weight: 400;
+}
+#light .school h2, #light .cards h2, #light .projcards h2 {
+    color: #41403f;
+    font-weight: 600;
+}
+#light .cards h2 span {
+    opacity: 0.8;
+}
+#light .listheaders, #light .cards:hover h2 {
+    color: #967969;
+}
+#light .cards:hover {
+    background: rgba(94, 67, 47, 0.1);
+}
+#light .cards ol li, #light .projcards ul ol li {
+    background-color: rgba(71, 51, 36, 0.8);
+    color: #e7ddd2;
+    font-weight: 500;
+}
 .view {
     cursor: pointer;
     margin-left: 35px;
@@ -1002,9 +1160,16 @@ button:hover span {
     color: #c5c6c7;
 }
 .view:hover::after {
-    content: "    →";
+    content: "   →";
     color: #fff;
     text-shadow: 0 0 5px #66fcf1;
+}
+#light .view, #light .view::after {
+    color: #4d4d4d;
+}
+#light .view:hover, #light .view:hover::after {
+    color: #967969;
+    text-shadow: none;
 }
 @media (max-width: 920px) {
     .cards {
