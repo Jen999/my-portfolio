@@ -1,5 +1,7 @@
 import React from "react";
 import redirect from "../functions/redirect";
+import {FaGithub} from "react-icons/fa";
+import {BsGlobe} from "react-icons/bs";
 
 export default function ProjectsContent() {
     return (
@@ -11,8 +13,8 @@ export default function ProjectsContent() {
                     <p className="projcards">
                         <img src="./publicimages/portfoliowebsite.PNG" className="projpics" alt="Not Found"/>
                         <h2>Portfolio Website 
-                            <img src="./publicimages/github.png" className="github" alt="Not Found" onClick={redirect.bind(null, "https://github.com/Jen999/my-portfolio")}/>
-                            <img src="./publicimages/website.png" className="website" alt="Not Found" onClick={redirect.bind(null, "https://jen999.github.io/my-portfolio/")}/>
+                            <FaGithub className="github" onClick={redirect.bind(null, "https://github.com/Jen999/my-portfolio")}/>
+                            <BsGlobe className="website" onClick={redirect.bind(null, "https://jen999.github.io/my-portfolio/")}/>
                         </h2>
                         <ul>
                             <li>Self-directed digital portfolio website showcasing a comprehensive overview of experiences, skills, and achievements.</li>
