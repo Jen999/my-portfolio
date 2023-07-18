@@ -269,6 +269,7 @@ header {
     margin-top: 10px;
     width: fit-content;
     transition: 0.5s;
+    white-space: wrap;
 }
 .introduction:hover p {
     color: #fff;
@@ -331,9 +332,6 @@ header {
     .active .line1 {
         transform: translate(0, 8px)rotate(45deg);
     }
-    .active .line2 {
-        opacity: 0;
-    }
     .active .line3 {
         transform: translate(0, -8px)rotate(-45deg);
     }
@@ -348,19 +346,14 @@ header {
         border-radius: 25px;
         top: 39vh;
     }
-    .introduction h1 {
-        margin-left: 0;
-    }
     .introduction h1 span {
         font-size: 180px;
     }
     .introduction h2 {
         font-size: 20px;
-        margin-left: 0;
     }
     .introduction p {
         font-size: 14px;
-        white-space: wrap;
     }
 }
 @media (max-width: 530px) {
@@ -397,7 +390,6 @@ header {
     }
     .introduction p {
         font-size: 10px;
-        white-space: wrap;
     }
 }
 .links {
@@ -417,10 +409,8 @@ header {
     color: #45a29e;
     text-decoration: none;
     font-size: 21px;
-    font-weight: 500;
     letter-spacing: 0.12em;
     transition: 0.5s;
-    z-index: 3;
 }
 .links p:hover {
     transform: translateY(5px);
@@ -493,13 +483,13 @@ header {
     box-shadow: none;
     transition-delay: 0.3s;
 }
-#light .links p span:nth-child(1), #light .links p span:nth-child(2), #light .links p span:nth-child(3), #light .links p span:nth-child(4) {
-    background: #ccb8a5;
-}
 .links p:hover span:nth-child(4) {
     transform: scaleY(1);
     transition: 0.1s;
     transition-delay: 0.3s;
+}
+#light .links p span:nth-child(1), #light .links p span:nth-child(2), #light .links p span:nth-child(3), #light .links p span:nth-child(4) {
+    background: #ccb8a5;
 }
 .get-in-touch-menu {
     display: none;
@@ -534,7 +524,6 @@ button {
     color: #c5c6c7;
     text-transform: uppercase;
     cursor: pointer;
-    position: relative;
     overflow: hidden;
     transition: 0.5s;
 }
@@ -571,7 +560,6 @@ button:hover span {
     left: 0;
     width: fit-content;
     height: 1200px;
-    background: transparent;
     display: grid;
     transition: 0.5s;
     z-index: 10;
@@ -588,7 +576,6 @@ button:hover span {
     display: block;
     margin-bottom: 90px;
     font-size: 18px;
-    font-weight: 400;
     line-height: 30px;
     padding-left: 50px;
     text-decoration: none;
@@ -608,7 +595,6 @@ button:hover span {
     color: #fff;
     text-shadow: 0 0 10px #66fcf1;
     letter-spacing: 0.5em;
-    transition: 0.5s;
     transition-delay: 0s;
 }
 #light .navbar ul li a {
@@ -676,14 +662,14 @@ button:hover span {
     width: 100%;
     height: 1200px;
 }
-.aboutme {
+.aboutme, .education, .experience, .projects {
     position: relative;
     display: flex;
     justify-content: center;
     flex: 1;
     z-index: 5;
 }
-.aboutme header {
+.aboutme header, .education header, .experience header, .projects header {
     position: absolute;
     top: 10%;
     text-align: center;
@@ -797,14 +783,11 @@ button:hover span {
 }
 @media (max-width: 900px) {
     .aboutme div {
-        position: absolute;
         display: block;
         top: 16%;
     }
     .profpic {
-        position: relative;
         padding-left: 10px;
-        display: flex;
         width: 300px;
         height: 300px;
     }
@@ -829,7 +812,6 @@ button:hover span {
         font-size: 20px;
     }
     .aboutme p {
-        position: absolute;
         top: 40%;
         font-size: 14px;
         line-height: 1.8em;
@@ -863,25 +845,12 @@ button:hover span {
         margin-top: 5px;
     }
     .aboutme p {
-        position: absolute;
         top: 150vw;
         font-size: 14px;
         line-height: 1.5em;
     }
 }
-.education {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    z-index: 5;
-}
-.education header {
-    position: absolute;
-    top: 10%;
-    text-align: center;
-}
-.edutitle {
+.edutitle, .exptitle  {
     position: absolute;
     top: 20%;
     color: #dedfe0;
@@ -905,7 +874,6 @@ button:hover span {
 .school h2 span {
     font-size: 16px;
     margin-top: 5px;
-    font-weight: 500;
     opacity: 0.5;
     text-align: right;
     white-space: nowrap;
@@ -917,7 +885,6 @@ button:hover span {
 }
 .school ul li {
     margin-bottom: 10px;
-    font-weight: 200;
     font-size: 17px;
     width: 800px;
 }
@@ -1029,27 +996,6 @@ button:hover span {
         margin-top: 0;
     }
 }
-.experience {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    z-index: 5;
-}
-.experience header {
-    position: absolute;
-    top: 10%;
-    text-align: center;
-}
-.exptitle {
-    position: absolute;
-    top: 20%;
-    flex: 1;
-    color: #dedfe0;
-    font-weight: 200;
-    font-size: 17px;
-}
 .cards {
     cursor: pointer;
     margin-bottom: 60px;
@@ -1075,7 +1021,6 @@ button:hover span {
 }
 .cards h2 span {
     font-size: 16px;
-    font-weight: 500;
     opacity: 0.5;
     text-align: right;
     white-space: nowrap;
@@ -1095,7 +1040,6 @@ button:hover span {
 }
 .cards ul li {
     margin-bottom: 10px;
-    font-weight: 200;
     font-size: 17px;
     max-width: 810px;
 }
@@ -1175,9 +1119,6 @@ button:hover span {
     .cards {
         width: 95vw;
     }
-    .cards ol {
-        display: flex;
-    }
 }
 @media (max-width: 620px) {
     .experience header {
@@ -1239,26 +1180,11 @@ button:hover span {
         margin: 3px 3px 0px 0;
     }
 }
-.projects {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    z-index: 5;
-    overflow: hidden;
-}
-.projects header {
-    position: absolute;
-    top: 10%;
-    text-align: center;
-}
 .projtitle {
     width: 1280px;
     position: absolute;
     top: 20%;
     flex: 1;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .projcards {
     color: #dedfe0;
@@ -1284,6 +1210,9 @@ button:hover span {
     width: 30px;
     filter: invert();
     margin-left: 10px;
+}
+#light .github, #light .website {
+    filter: none;
 }
 .projcards ul li {
     margin-top: 20px;
@@ -1315,7 +1244,6 @@ button:hover span {
 @media (max-width: 1100px) {
     .projtitle {
         width: 95vw;
-        position: absolute;
         display: flex;
         justify-content: center;
     }
@@ -1325,7 +1253,6 @@ button:hover span {
     .projpics {
         position: relative;
         display: flex;
-        width: 600px;
         float: none;
         margin-bottom: 15px;
         margin-left: 0;
@@ -1336,9 +1263,7 @@ button:hover span {
 }
 @media (max-width: 620px) {
     .projects header {
-        position: absolute;
         top: 3%;
-        text-align: center;
     }
     .projtitle {
         top: 6%;
@@ -1350,7 +1275,6 @@ button:hover span {
     }
     .github, .website {
         width: 20px;
-        filter: invert();
         margin-left: 8px;
     }
     .projcards h2 {
