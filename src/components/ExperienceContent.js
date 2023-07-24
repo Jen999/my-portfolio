@@ -13,17 +13,19 @@ export default function ExperienceContent() {
                         <h2>Systems Engineer, Intern<span>MAY 2023 - JUL 2023</span></h2>
                         <br/>NCS Group (NCS Engineering)
                         <ul>
-                            {/* <li>In the Smart City department involved in multiple projects with the National Heritage Board (NHB) for a 3 months summer internship.</li> */}
-                            <li>Constructed front-end UI in React for web application project in collaboration with software engineering department.</li>
-                            <li>Effectively managed systems security hardening of assigned devices (macOS) for project deployments
+                            <li>Constructed interactive front-end UI for an active web application project utilizing React.</li>
+                            <li>Developed RESTful API endpoints in ASP.NET Core and implemented error handling and response mechanisms.</li>
+                            <li>Effectively managed systems security hardening of macOS devices for project deployments
                                 by implementing and designing bash scripts.</li>
                             <li>Troubleshooting and maintenance of hardware systems deployed across multiple exhibitions.</li>
                         </ul>
                         <ol>
                             <li>React</li>
                             <li>JavaScript</li>
+                            <li>ASP.NET Core</li>
+                            <li>C#</li>
                             <li>HTML</li>
-                            <li>OS Hardening (CIS macOS Ventura)</li>
+                            <li>OS Hardening</li>
                             <li>Troubleshooting</li>
                             <li>Bash</li>
                         </ol>
@@ -32,7 +34,6 @@ export default function ExperienceContent() {
                         <h2>Business Solution Team, Intern<span>MAY 2022 - JUL 2022</span></h2>
                         <br/>Panasonic R&D Center Singapore
                         <ul>
-                            {/* <li>In the Research & Development department involved in the Panasonic Smart Lighting Project for a 3 months summer internship.</li> */}
                             <li>Co-authored the UI and Wireframe Design documentation.</li>
                             <li>Managed the Requirements Analysis and System Architecture documentation.</li>
                             <li>Modeled the prototyping and testing of LED display panel (Soft Soldering).</li>
