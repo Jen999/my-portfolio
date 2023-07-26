@@ -14,7 +14,7 @@ export default function ExperienceContent() {
                         <br/>NCS Group (NCS Engineering)
                         <ul>
                             <li>Constructed interactive front-end UI for an active web application project utilizing React.</li>
-                            <li>Developed RESTful API endpoints in ASP.NET Core and implemented error handling and response mechanisms.</li>
+                            <li>Developed RESTful API endpoints in ASP.NET MVC and implemented error handling and response mechanisms.</li>
                             <li>Effectively managed systems security hardening of macOS devices for project deployments
                                 by implementing and designing bash scripts.</li>
                             <li>Troubleshooting and maintenance of hardware systems deployed across multiple exhibitions.</li>
@@ -22,7 +22,7 @@ export default function ExperienceContent() {
                         <ol>
                             <li>React</li>
                             <li>JavaScript</li>
-                            <li>ASP.NET Core</li>
+                            <li>ASP.NET MVC</li>
                             <li>C#</li>
                             <li>HTML</li>
                             <li>OS Hardening</li>
