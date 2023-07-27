@@ -15,8 +15,7 @@ export default function ExperienceContent() {
                         <ul>
                             <li>Constructed interactive front-end UI for an active web application project utilizing React.</li>
                             <li>Developed RESTful API endpoints in ASP.NET Core and implemented error handling and response mechanisms.</li>
-                            <li>Effectively managed systems security hardening of macOS devices for project deployments
-                                by implementing and designing bash scripts.</li>
+                            <li>Efficiently managed systems hardening of macOS devices for project deployments utilizing bash scripting.</li>
                             <li>Troubleshooting and maintenance of hardware systems deployed across multiple exhibitions.</li>
                         </ul>
                         <ol>
