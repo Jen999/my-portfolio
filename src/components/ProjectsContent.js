@@ -11,16 +11,15 @@ export default function ProjectsContent() {
                 <header><span className="sectheaders">Projects</span></header>
                 <div className="projtitle">
                     <p className="projcards">
-                        <img src="./publicimages/portfoliowebsite.PNG" className="projpics" alt="Not Found"/>
+                        <img src="./publicimages/portfolioweb.png" className="projpics" alt="Not Found"/>
                         <h2>Portfolio Website 
                             <FaGithub className="github" onClick={redirect.bind(null, "https://github.com/Jen999/my-portfolio")}/>
                             <BsGlobe className="website" onClick={redirect.bind(null, "https://jen999.github.io/my-portfolio/")}/>
                         </h2>
                         <ul>
-                            <li>Self-directed digital portfolio website showcasing work experiences, skills, and achievements.</li>
-                            <li>Learnt front-end tech stack independently and developed a functioning portfolio website to hone web development skills.</li>
-                            <li>Implemented interactive and dynamic design to enhance visual appeal and user engagement.</li>
-                            <li>Incorporated responsive and mobile-friendly design for the website to function seamlessly on different devices.</li>
+                            <li>Self-directed digital portfolio website showcasing work experiences, skills, and projects.</li>
+                            <li>Learnt and applied front-end tech stack independently for web development.</li>
+                            <li>Implemented interactive and responsive design to enhance visual appeal and user experience.</li>
                             <ol>
                                 <li>React</li>
                                 <li>JavaScript</li>

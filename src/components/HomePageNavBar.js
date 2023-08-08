@@ -1,14 +1,16 @@
 import React from "react";
+import toggle from "../functions/toggle";
 
 export default function HomePageNavBar() {
+  
     return (
       <div className="navbar" id="navbar">
         <ul>
-          <li><a href="#home" style={{'--i':0}}>Home</a></li>
-          <li><a href="#about" style={{'--i':1}}>About Me</a></li>
-          <li><a href="#education" style={{'--i':2}}>Education</a></li>
-          <li><a href="#experience" style={{'--i':3}}>Experience</a></li>
-          <li><a href="#projects" style={{'--i':4}}>Projects</a></li>
+          <li onClick={toggle.bind(null, '.togglebox')}><a href="#home">Home</a></li>
+          <li onClick={toggle.bind(null, '.togglebox')}><a href="#about">About Me</a></li>
+          <li onClick={toggle.bind(null, '.togglebox')}><a href="#education">Education</a></li>
+          <li onClick={toggle.bind(null, '.togglebox')}><a href="#experience">Experience</a></li>
+          <li onClick={toggle.bind(null, '.togglebox')}><a href="#projects">Projects</a></li>
         </ul>
       </div>
     );

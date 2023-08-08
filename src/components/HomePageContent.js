@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomePageContent() {
   return (
-    <section className="uprightbg" id="home">
+    <section className="adjustablebg" id="home">
       <div className="introduction">
           <h2>my name is</h2>
           <h1>

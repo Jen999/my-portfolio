@@ -13,8 +13,8 @@ export default function ExperienceContent() {
                         <h2>Systems Engineer, Intern<span>MAY 2023 - JUL 2023</span></h2>
                         <br/>NCS Group (NCS Engineering)
                         <ul>
-                            <li>Constructed interactive front-end UI for an active web application project utilizing React.</li>
-                            <li>Developed RESTful API endpoints in ASP.NET Core and implemented error handling and response mechanisms.</li>
+                            <li>Constructed interactive front-end UI for an active enterprise-level web application project utilizing React.</li>
+                            <li>Developed RESTful API endpoints in ASP.NET Core with error handling and response mechanisms implemented.</li>
                             <li>Efficiently managed systems hardening of macOS devices for project deployments utilizing bash scripting.</li>
                             <li>Troubleshooting and maintenance of hardware systems deployed across multiple exhibitions.</li>
                         </ul>

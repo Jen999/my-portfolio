@@ -14,15 +14,15 @@ export default function EducationContent() {
                             National University of Singapore
                             <span>AUG 2021 - MAY 2025</span>
                         </h2>
-                        <br/>Bachelor of Engineering (Honours) in Electrical Engineering
+                        <br/>Bachelor of Engineering in Electrical Engineering
                         <ul>
-                            <li>Grade Point Average: 4.28 / 5.00 (Upper Second-Class (Distinction))</li>
+                            <li>Academics: GPA 4.28 / 5.00 (Honours with Distinction)</li>
                             <li>Specialization in the Internet of Things (IoT)</li>
                             <li><span className="coursestaken">Relevant Courses Taken:</span>
                                 <ul>
                                     <li className="software"><span className="listheaders"  onClick={toggle.bind(null, '.software')}>Software Fundamentals</span>
                                         <ul className="softwaremodules">
-                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS2030/programming-methodology-ii")}>Programming Methodology II (Java)</li>
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE3801/data-engineering-principles")}>Data Engineering Principles (Python)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE4211/data-science-for-the-internet-of-things")}>Data Science for the Internet of Things (Python)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2028/microcontroller-programming-and-interfacing")}>Microcontroller Programming and Interfacing (C)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2211/introduction-to-machine-learning")}>Introduction to Machine Learning (Python)</li>
