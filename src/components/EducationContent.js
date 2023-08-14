@@ -16,7 +16,7 @@ export default function EducationContent() {
                         </h2>
                         <br/>Bachelor of Engineering in Electrical Engineering
                         <ul>
-                            <li>Academics: GPA 4.28 / 5.00 (Honours with Distinction)</li>
+                            <li>Academics: GPA 4.33 / 5.00 (Honours with Distinction)</li>
                             <li>Specialization in the Internet of Things (IoT)</li>
                             <li><span className="coursestaken">Relevant Courses Taken:</span>
                                 <ul>
