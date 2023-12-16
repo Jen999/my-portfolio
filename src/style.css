@@ -521,7 +521,6 @@ header {
     letter-spacing: 0.05em;
     word-spacing: 0.07em;
     font-style: italic;
-    /* white-space: nowrap; */
 }
 .aboutmetext .view a {
     margin-left: 0;
@@ -690,9 +689,6 @@ header {
 #light .school h2 span {
     opacity: 0.8;
 }
-#light .coursestaken, #light .listheaders {
-    font-weight: 600;
-}
 #light .listheaders:hover, #light .software.active .listheaders:hover, #light .ee.active .listheaders:hover, #light .math.active .listheaders:hover {
     color: #ccb8a5;
     text-shadow: none;
@@ -750,7 +746,7 @@ header {
 }
 .cards {
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 100%;
     height: fit-content;
     padding: 10px 15px 8px 15px;
@@ -813,11 +809,9 @@ header {
 }
 #light .aboutme p, #light .aboutmetext, #light .edutitle, #light .school ul li, #light .exptitle, #light .cards ul li, #light .projcards {
     color: #4d4d4d;
-    font-weight: 400;
 }
 #light .school h2, #light .cards h2, #light .projcards h2 {
     color: #41403f;
-    font-weight: 600;
 }
 #light .cards h2 span {
     opacity: 0.8;
@@ -831,7 +825,6 @@ header {
 #light .cards ol li, #light .projcards ol li {
     background-color: rgba(71, 51, 36, 0.8);
     color: #e7ddd2;
-    font-weight: 500;
 }
 .view {
     max-width: fit-content;
@@ -933,7 +926,7 @@ header {
 .projcards {
     color: #dedfe0;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     max-width: fit-content;
 }
 .vis2 {
@@ -959,6 +952,10 @@ header {
     display: flex;
     flex-direction: row;
 }
+.sidebar {
+    flex-direction: column;
+    margin-top: 25px;
+}
 .github, .website {
     cursor: pointer;
     font-size: 28px;
@@ -968,14 +965,13 @@ header {
     color: #41403f;
 }
 .projcards ul li {
-    margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
     line-height: 22px;
     list-style: none;
     font-size: 18px;
 }
 .projcards ol {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: inline-flex;
     flex-wrap: wrap;
     list-style: none;
@@ -993,6 +989,9 @@ header {
 @media (max-width: 1030px) {
     .projpics {
         margin-right: 0;
+    }
+    .sidebar {
+        margin-top: 0;
     }
     .cardheader {
         flex-direction: column-reverse;

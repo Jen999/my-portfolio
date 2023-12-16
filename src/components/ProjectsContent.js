@@ -25,7 +25,7 @@ export default function ProjectsContent() {
                                 </h2>
                             </div>
                             <img src="./publicimages/portfolioweb.png" className="projpics" alt="Not Found"/>
-                            <div style={{flexDirection: 'column', marginTop: 25}}>
+                            <div className="sidebar">
                                 <h2>Portfolio Website</h2>
                                 <h3>My personal website. You're on it right now.</h3>
                                 <div className="vis1">
@@ -64,7 +64,7 @@ export default function ProjectsContent() {
                                 </h2>
                             </div>
                             <img src="./publicimages/spendingtracker.png" className="projpics" alt="Not Found"/>
-                            <div style={{flexDirection: 'column', marginTop: 25}}>
+                            <div className="sidebar">
                                 <h2>Spending Tracker App</h2>
                                 <h3>A mobile application aimed to tackle unhealthy habitual spending habits.</h3>
                                 <div className="vis1">
