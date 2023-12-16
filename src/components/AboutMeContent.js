@@ -1,27 +1,26 @@
 import React from "react";
-import redirect from "../functions/redirect";
 
 export default function AboutMeContent() {
     return (
         <section id="about">
-            <div className="rotatedbg"></div>
             <div className="aboutme">
                 <header><span className="sectheaders">About Me</span></header>
                 <div>
                 <img src="./publicimages/profpicture.jpg" className="profpic" alt="Not Found"></img>
                     <h2 className="aboutmetext">
-                    Based in Singapore<br/>
-                    NUS EE | NCS Systems Engineer Intern
+                    Based in Singapore,<br/>
+                    NUS EE, 
+                    SWE (Robotics) Intern @STEngi
                         <h2 className="view"><a href="#education">View Education</a></h2>
                         <h2 className="view"><a href="#experience">View Experience</a></h2>
                     </h2>
                 </div>
-                <p>
+                <p style={{ display: 'flex', flexDirection: 'column' }}>
                     I am a third-year university undergraduate at the National University of Singapore (NUS),
-                    majoring in Electrical Engineering (EE) and specializing in the <span className="underline" onClick={redirect.bind(null, 'https://cde.nus.edu.sg/ece/undergraduate/electrical-engineering/specialisations-and-minor/internet-of-things-iot/')}>Internet of Things (IoT)</span>.  
+                    majoring in Electrical Engineering (EE) and specializing in the Internet of Things (IoT).  
                     <br/><br/>
-                    Whilst taking up computing modules during my studies, I took interest in exploring more 
-                    about software engineering. Early this year, I discovered my passion for software development, 
+                    Whilst taking up computing modules during my studies, I enjoyed programming and took interest in exploring more 
+                    about software engineering. Early 2023, I discovered my passion for software development, 
                     and I became deeply fascinated with exploring and understanding about building with different 
                     tools and frameworks.
                     <br/><br/>

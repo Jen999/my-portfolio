@@ -5,7 +5,6 @@ import toggle from "../functions/toggle";
 export default function EducationContent() {
     return (
         <section id="education">
-        <div className="uprightbg"></div>
             <div className="education">
                 <header><span className="sectheaders">Education</span></header>
                 <div className="edutitle">
@@ -14,9 +13,11 @@ export default function EducationContent() {
                             National University of Singapore
                             <span>AUG 2021 - MAY 2025</span>
                         </h2>
-                        <br/>Bachelor of Engineering in Electrical Engineering
+                        <h3>
+                        <br/>Bachelor of Engineering (Honours) in Electrical Engineering
+                        </h3>
                         <ul>
-                            <li>Academics: GPA 4.33 / 5.00 (Honours with Distinction)</li>
+                            <li>Grades: Cumulative GPA 4.33 / 5.00 (Honours with Distinction)</li>
                             <li>Specialization in the Internet of Things (IoT)</li>
                             <li><span className="coursestaken">Relevant Courses Taken:</span>
                                 <ul>
