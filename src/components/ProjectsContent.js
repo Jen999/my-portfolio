@@ -53,10 +53,10 @@ export default function ProjectsContent() {
                         <div className="cardheader">
                             <div className="vis2">
                                 <ol>
-                                    <li>React</li>
+                                    <li>React Native</li>
                                     <li>JavaScript</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
+                                    <li>Firebase</li>
+                                    <li>Figma</li>
                                 </ol>
                                 <h2>
                                     <FaGithub className="github" onClick={redirect.bind(null, "https://github.com/Jen999/my-portfolio")}/>

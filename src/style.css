@@ -475,7 +475,7 @@ header {
         margin-right: 10%;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 410px) {
     .aboutme, .education, .experience, .projects {
         margin-left: 5%;
         margin-right: 5%;
@@ -518,10 +518,10 @@ header {
     font-weight: 700;
     font-size: 20px;
     margin-top: 210px;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.05em;
     word-spacing: 0.07em;
     font-style: italic;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 .aboutmetext .view a {
     margin-left: 0;
@@ -563,22 +563,18 @@ header {
     .aboutmetext .view {
         margin-top: -5px;
     }
-    .aboutme p {
-        top: 52%;
-    }
 }
 @media (max-width: 620px) {
     .sectheaders {
         font-size: 20px;
     }
     .aboutme p {
-        top: 43%;
         font-size: 14px;
         line-height: 1.8em;
     }
     .aboutme h2 {
         display: block;
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 5px;
     }
     .aboutmetext .view {
@@ -597,12 +593,14 @@ header {
     .aboutme h2 {
         position: relative;
         display: block;
-        font-size: 4.2vw;
+        font-size: 15px;
+        margin-right: 5%;
         margin-top: 5px;
     }
     .aboutme p {
         font-size: 14px;
         line-height: 1.5em;
+        margin-right: 5%;
     }
 }
 .edutitle, .exptitle  {
