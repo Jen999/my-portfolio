@@ -9,8 +9,8 @@ export default function AboutMeContent() {
                 <img src="./publicimages/profpicture.jpg" className="profpic" alt="Not Found"></img>
                     <h2 className="aboutmetext">
                     Based in Singapore,<br/>
-                    NUS EE, 
-                    SWE (Robotics) Intern @STEngi
+                    NUS EE,<br/> 
+                    SWE (Robotics) Intern @STEngg
                         <h2 className="view"><a href="#education">View Education</a></h2>
                         <h2 className="view"><a href="#experience">View Experience</a></h2>
                     </h2>
