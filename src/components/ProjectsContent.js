@@ -82,7 +82,7 @@ export default function ProjectsContent() {
                         </div>
                         <div>
                             <ul>
-                                <li>Designed and developed an Android app to make budgetting of habitual expenses convenient and efficient, with the goal of empowering users to take control, make informed decisions, and build a secure financial future.</li>
+                                <li>Designed and developed an Android app to make budgeting of habitual expenses convenient and efficient, with the goal of empowering users to take control, make informed decisions, and build a secure financial future.</li>
                                 <li>Conducted user research and designed user interface utilizing UI/UX research methodologies and Figma software, under expert supervision as an NUS credit-bearing module EG2606B.</li>
                                 <li>Learnt and applied full-stack mobile application development independently using React Native and Firebase.</li>
                             </ul>
