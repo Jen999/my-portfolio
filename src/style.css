@@ -511,13 +511,13 @@ header {
     width: 360px;
     object-fit: cover;
     border-radius: 35px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .aboutmetext {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 210px;
+    margin-top: 180px;
     letter-spacing: 0.05em;
     word-spacing: 0.07em;
     font-style: italic;
