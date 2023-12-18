@@ -59,8 +59,7 @@ export default function ProjectsContent() {
                                     <li>Figma</li>
                                 </ol>
                                 <h2>
-                                    <FaGithub className="github" onClick={redirect.bind(null, "https://github.com/Jen999/my-portfolio")}/>
-                                    <BsGlobe className="website" onClick={redirect.bind(null, "https://jen999.github.io/my-portfolio/")}/>
+                                <FaGithub className="github" onClick={redirect.bind(null, "https://github.com/Jen999/spending-tracker")}/>
                                 </h2>
                             </div>
                             <img src="./publicimages/spendingtracker.png" className="projpics" alt="Not Found"/>
