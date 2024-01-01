@@ -17,7 +17,7 @@ export default function EducationContent() {
                         <br/>Bachelor of Engineering (Honours) in Electrical Engineering
                         </h3>
                         <ul>
-                            <li>Grades: Cumulative GPA 4.33 / 5.00 (Honours with Distinction)</li>
+                            <li>Grades: Cumulative GPA 4.27 / 5.00 (Honours with Distinction)</li>
                             <li>Specialization in the Internet of Things (IoT)</li>
                             <li><span className="coursestaken">Relevant Courses Taken:</span>
                                 <ul>
