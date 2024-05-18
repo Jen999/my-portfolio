@@ -30,14 +30,15 @@ export default function ExperienceContent() {
                         <br/>ST Engineering (Land Systems)
                         </h3>
                         <ul>
-                            <li>Internship (credit-bearing Industrial Attachment) to begin in January 2024.</li>
-                            <li>Development of algorithms to enhance multi-agent exploration system.</li>
-                            <li>Rigorous software and hardware validation.</li>
+                            <li>Implemented and integrated modules for 3D path planning and navigation of Q-UGVs.</li>
+                            <li>Developed algorithms for effective and robust traversability analysis of terrain.</li>
                         </ul>
                         <ol>
                             <li>C++</li>
-                            <li>Python</li>
                             <li>ROS</li>
+                            <li>Ubuntu</li>
+                            <li>Robotics Navigation</li>
+                            <li>Bash</li>
                         </ol>
                     </p>
                     <p className="cards" onClick={redirect.bind(null, "https://www.ncs.co/en-sg/")}> 
