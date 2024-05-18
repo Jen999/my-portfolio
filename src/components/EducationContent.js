@@ -53,6 +53,11 @@ export default function EducationContent() {
                                     </li>
                                 </ul>
                             </li>
+                            <li><span className="coursestaken">Certifications:</span>
+                                <ul>
+                                    <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/019555f326c94469b9f06cdc01153d58")}>Introduction to Java Programming I by HKUSTx</li>
+                                </ul>
+                            </li>
                         </ul>
                     </p>
                 </div>
