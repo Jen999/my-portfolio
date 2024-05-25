@@ -30,6 +30,7 @@ export default function ExperienceContent() {
                         <br/>ST Engineering (Land Systems)
                         </h3>
                         <ul>
+                            <li>Awarded with the ST Engineering Intern Award.</li>
                             <li>Implemented and integrated modules for 3D path planning and navigation of Q-UGVs.</li>
                             <li>Developed algorithms for effective and robust traversability analysis of terrain.</li>
                         </ul>
@@ -48,19 +49,17 @@ export default function ExperienceContent() {
                         </h3>
                         <ul>
                             <li>Constructed interactive front-end UI for an active enterprise-level web application project utilizing React.</li>
-                            <li>Developed RESTful API endpoints in ASP.NET Core with error handling and response mechanisms implemented.</li>
                             <li>Efficiently managed systems hardening of macOS devices for project deployments utilizing bash scripting.</li>
                             <li>Troubleshooting and maintenance of hardware systems deployed across multiple exhibitions.</li>
                         </ul>
                         <ol>
                             <li>React</li>
                             <li>JavaScript</li>
-                            <li>ASP.NET Core</li>
-                            <li>C#</li>
                             <li>HTML</li>
                             <li>OS Hardening</li>
-                            <li>Troubleshooting</li>
                             <li>Bash</li>
+                            <li>C#</li>
+                            <li>Troubleshooting</li>
                         </ol>
                     </p>
                     <p className="cards" onClick={redirect.bind(null, "https://research.sg.panasonic.com/")}>
@@ -69,9 +68,8 @@ export default function ExperienceContent() {
                         <br/>Panasonic R&D Center Singapore
                         </h3>
                         <ul>
-                            <li>Managed the Requirements Analysis and System Architecture documentation.</li>
-                            <li>Co-authored the UI and Wireframe Design documentation.</li>
-                            <li>Modeled the prototyping and testing of LED display panel (Soft Soldering).</li>
+                            <li>Managed and co-authored the requirements analysis, system architecture, and wireframe design documentation.</li>
+                            <li>Modelled the prototyping and testing of LED display panel (Soft Soldering).</li>
                         </ul>
                         <ol>
                             <li>Technical Documentation</li>
