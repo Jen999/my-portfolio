@@ -10,13 +10,13 @@ export default function AboutMeContent() {
                     <h2 className="aboutmetext">
                     Based in Singapore,<br/>
                     NUS EE,<br/> 
-                    SWE (Robotics) Intern @STEngg
+                    Engineer Intern @DSO
                         <h2 className="view"><a href="#education">View Education</a></h2>
                         <h2 className="view"><a href="#experience">View Experience</a></h2>
                     </h2>
                 </div>
                 <p style={{ display: 'flex', flexDirection: 'column' }}>
-                    I am a third-year university undergraduate at the National University of Singapore (NUS),
+                    I am a final year university undergraduate at the National University of Singapore (NUS),
                     majoring in Electrical Engineering (EE) and specializing in the Internet of Things (IoT).  
                     <br/><br/>
                     Whilst taking up computing modules during my studies, I enjoyed programming and took interest in exploring more 

@@ -9,19 +9,18 @@ export default function ExperienceContent() {
                 <header><span className="sectheaders">Work Experience</span></header>
                 <div className="exptitle">
                     <p className="cards" onClick={redirect.bind(null, "https://www.dso.org.sg/")}> 
-                        <h2>FPGA Engineer, Intern<span>MAY 2024 - AUG 2024</span></h2>
+                        <h2>Engineer, Intern<span>MAY 2024 - AUG 2024</span></h2>
                         <h3>
                         <br/>DSO National Laboratories
                         </h3>
                         <ul>
-                            <li>Summer Internship to begin in May 2024.</li>
-                            <li>Training on the latest high-end FPGA structure, logic, memory performance, and high-speed data interfaces.</li>
-                            <li>Implementation and testing of FPGA architecture design on LLM’s computing intensive modules.</li>
+                            <li>In-memory computing for hardware acceleration of Large Language Models (LLMs).</li>
                         </ul>
                         <ol>
-                            <li>LLM Architecture and Processing Flow</li>
-                            <li>FPGA Development</li>
-                            <li>Verilog/VHDL</li>
+                            <li>In-memory Computing</li>
+                            <li>C Programming</li>
+                            <li>LLM Processing Flow</li>
+                            <li>Transformer Architecture</li>
                         </ol>
                     </p>
                     <p className="cards" onClick={redirect.bind(null, "https://www.stengg.com/en/defence/land/land-defence-systems/")}> 
@@ -63,7 +62,7 @@ export default function ExperienceContent() {
                         </ol>
                     </p>
                     <p className="cards" onClick={redirect.bind(null, "https://research.sg.panasonic.com/")}>
-                        <h2>R&D (Business Solutions), Intern<span>MAY 2022 - JUL 2022</span></h2>
+                        <h2>R&D Engineer, Intern<span>MAY 2022 - JUL 2022</span></h2>
                         <h3>
                         <br/>Panasonic R&D Center Singapore
                         </h3>
