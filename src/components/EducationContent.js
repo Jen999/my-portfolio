@@ -19,6 +19,11 @@ export default function EducationContent() {
                         <ul>
                             <li>Grades: Cumulative GPA 4.27 / 5.00 (Honours with Distinction)</li>
                             <li>Specialization in the Internet of Things (IoT)</li>
+                            <li><span className="coursestaken">Certifications:</span>
+                                <ul className="softwaremodules">
+                                    <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/019555f326c94469b9f06cdc01153d58")}>Introduction to Java Programming I by HKUSTx</li>
+                                </ul>
+                            </li>
                             <li><span className="coursestaken">Relevant Courses Taken:</span>
                                 <ul>
                                     <li className="software"><span className="listheaders"  onClick={toggle.bind(null, '.software')}>Software Fundamentals</span>
@@ -51,11 +56,6 @@ export default function EducationContent() {
                                         </ul>
 
                                     </li>
-                                </ul>
-                            </li>
-                            <li><span className="coursestaken">Certifications:</span>
-                                <ul className="softwaremodules">
-                                    <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/019555f326c94469b9f06cdc01153d58")}>Introduction to Java Programming I by HKUSTx</li>
                                 </ul>
                             </li>
                         </ul>
