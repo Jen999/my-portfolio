@@ -17,8 +17,8 @@ export default function ExperienceContent() {
                             <li>In-memory computing for hardware acceleration of Large Language Models (LLMs).</li>
                         </ul>
                         <ol>
-                            <li>In-memory Computing</li>
                             <li>C Programming</li>
+                            <li>In-memory Computing</li>
                             <li>LLM Processing Flow</li>
                             <li>Transformer Architecture</li>
                         </ol>

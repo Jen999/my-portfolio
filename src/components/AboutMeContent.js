@@ -9,7 +9,7 @@ export default function AboutMeContent() {
                 <img src="./publicimages/profpicture.jpg" className="profpic" alt="Not Found"></img>
                     <h2 className="aboutmetext">
                     Based in Singapore,<br/>
-                    NUS EE,<br/> 
+                    NUS EE & Computing<br/> 
                     Engineer Intern @DSO
                         <h2 className="view"><a href="#education">View Education</a></h2>
                         <h2 className="view"><a href="#experience">View Experience</a></h2>
@@ -17,14 +17,13 @@ export default function AboutMeContent() {
                 </div>
                 <p style={{ display: 'flex', flexDirection: 'column' }}>
                     I am a final year university undergraduate at the National University of Singapore (NUS),
-                    majoring in Electrical Engineering (EE) and specializing in the Internet of Things (IoT).  
+                    primary Major in Electrical Engineering (EE) and a 2nd Major in Computing.  
                     <br/><br/>
-                    Whilst taking up computing modules during my studies, I enjoyed programming and took interest in exploring more 
-                    about software engineering. Early 2023, I discovered my passion for software development, 
-                    and I became deeply fascinated with exploring and understanding about building with different 
-                    tools and frameworks.
+                    I have a keen interest for programming and I am deeply fascinated with exploring and understanding 
+                    about building with different tools and frameworks. I am passionate about learning, exploring, and 
+                    experiencing new technologies that have the potential to further the capabilites of modern day solutions.
                     <br/><br/>
-                    I am open to software roles and internship opportunities to gain valuable exposure in various 
+                    I am open to software roles, projects, and internship opportunities to gain valuable exposure in various 
                     disciplines and to enhance my competencies in software development and engineering. I am eager 
                     to contribute to impactful software solutions.
                 </p>
