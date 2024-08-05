@@ -14,7 +14,8 @@ export default function ExperienceContent() {
                         <br/>DSO National Laboratories
                         </h3>
                         <ul>
-                            <li>In-memory computing for hardware acceleration of Large Language Models (LLMs).</li>
+                            <li>Explored in-memory computing for hardware acceleration of Large Language Models (LLMs).</li>
+                            <li>Developed software for the computation of matrix multiplication on the Gemini Associative Processing Unit (APU).</li>
                         </ul>
                         <ol>
                             <li>C Programming</li>
