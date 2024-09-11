@@ -19,7 +19,7 @@ export default function EducationContent() {
                         <ul>
                             <li>Major in Electrical Engineering</li>
                             <li>2nd Major in Computing</li>
-                            <li>Grades: Cumulative GPA 4.27 / 5.00 (Honours with Distinction)</li>
+                            <li>Grades: CGPA 4.27 / 5.00 (Honours with Distinction; Second Class Upper)</li>
                             <li><span className="coursestaken">Certifications:</span>
                                 <ul className="softwaremodules">
                                     <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/88d4c2eee3504a609ac5758b9d0ca7f8")}>Machine Learning and AI with Python by HarvardX</li>
@@ -28,17 +28,21 @@ export default function EducationContent() {
                             </li>
                             <li><span className="coursestaken">Relevant Courses Taken:</span>
                                 <ul>
-                                    <li className="software"><span className="listheaders"  onClick={toggle.bind(null, '.software')}>Software Fundamentals</span>
+                                    <li className="software"><span className="listheaders"  onClick={toggle.bind(null, '.software')}>Computing Modules</span>
                                         <ul className="softwaremodules">
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS2040DE/data-structures-and-algorithms")}>Data Structures and Algorithms (Java)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE3801/data-engineering-principles")}>Data Engineering Principles (Python)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE4211/data-science-for-the-internet-of-things")}>Data Science for the Internet of Things (Python)</li>
-                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2028/microcontroller-programming-and-interfacing")}>Microcontroller Programming and Interfacing (C)</li>
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2028/microcontroller-programming-and-interfacing")}>Microcontroller Programming and Interfacing (ARM Assembly, C)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2211/introduction-to-machine-learning")}>Introduction to Machine Learning (Python)</li>
-                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS1010E/programming-methodology")}>Programming Methodology (Python)</li>
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS2030DE/programming-methodology-ii")}>Programming Methodology II (Python, OOP)</li>
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS1010E/programming-methodology")}>Programming Methodology I (Python)</li>
                                         </ul>
                                     </li>
-                                    <li className="ee"><span className="listheaders" onClick={toggle.bind(null, '.ee')}>Electrical Engineering Fundamentals</span>
+                                    <li className="ee"><span className="listheaders" onClick={toggle.bind(null, '.ee')}>Electrical Engineering Modules</span>
                                         <ul className="eemodules">
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE4204/computer-networks")}>Computer Networks</li>
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE3731C/signal-analytics")}>Signal Analytics</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/PC2020/electromagnetics-for-electrical-engineers")}>Electromagnetics for Electrical Engineers</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2023/signals-and-systems")}>Signals and Systems</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2022/electrical-energy-systems")}>Electrical Energy Systems</li>

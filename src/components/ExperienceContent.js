@@ -16,6 +16,7 @@ export default function ExperienceContent() {
                         <ul>
                             <li>Explored in-memory computing for hardware acceleration of Large Language Models (LLMs).</li>
                             <li>Developed software for the computation of matrix multiplication on the Gemini Associative Processing Unit (APU).</li>
+                            <li>Conducted thorough performance profiling of software to evaluate optimization opportunities.</li>
                         </ul>
                         <ol>
                             <li>C Programming</li>
