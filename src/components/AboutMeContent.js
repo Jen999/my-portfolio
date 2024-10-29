@@ -18,12 +18,12 @@ export default function AboutMeContent() {
                     I am a final year university undergraduate at the National University of Singapore (NUS)
                     pursuing a Double Major in Electrical Engineering (EE) and Computing (D&E).  
                     <br/><br/>
-                    I have a keen interest for programming and I am deeply fascinated by the fast-growing advancements and 
-                    applications of Robotics and AI. I am passionate about learning, exploring, and experiencing new and emerging 
+                    I have a keen interest for programming and software engineering. I am deeply fascinated by the fast-growing advancements and 
+                    applications of technology. I am passionate about learning, exploring, and experiencing new and emerging 
                     technologies that have the potential to further the capabilites of modern day solutions.
                     <br/><br/>
-                    I am open to Robotics and AI projects and opportunities to gain valuable exposure and to enhance my technical expertise 
-                    and knowledge in engineering. I am eager to contribute to developing impactful solutions.
+                    I am actively pursuing opportunities to gain valuable exposure and to enhance my technical expertise 
+                    and knowledge in software engineering. I am eager to contribute to the development of impactful solutions.
                 </p>
             </div>
         </section>

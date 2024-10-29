@@ -15,7 +15,7 @@ export default function HomePageContent() {
             <span>N</span>
           </h1>
           <p>
-            I'm an aspiring engineer
+            I'm an aspiring software engineer
           </p>
       </div>
     </section>
