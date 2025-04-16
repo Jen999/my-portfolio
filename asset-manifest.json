@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d28d34fb.css",
-    "main.js": "/my-portfolio/static/js/main.11aea566.js",
+    "main.css": "/my-portfolio/static/css/main.ff58957d.css",
+    "main.js": "/my-portfolio/static/js/main.a0c517aa.js",
+    "static/media/ncs-logo.png": "/my-portfolio/static/media/ncs-logo.7bbb379e83549d083dc2.png",
+    "static/media/dso-logo.png": "/my-portfolio/static/media/dso-logo.ab08bc8f1636b0f5443f.png",
+    "static/media/stengg-logo.png": "/my-portfolio/static/media/stengg-logo.cdbdb1ada4ea28009d7d.png",
+    "static/media/panasonic-logo.png": "/my-portfolio/static/media/panasonic-logo.e81705a189d4cf31f686.png",
+    "static/media/tiktok-logo.png": "/my-portfolio/static/media/tiktok-logo.50a760bcb9e1fcbcb9f1.png",
     "index.html": "/my-portfolio/index.html",
-    "main.d28d34fb.css.map": "/my-portfolio/static/css/main.d28d34fb.css.map",
-    "main.11aea566.js.map": "/my-portfolio/static/js/main.11aea566.js.map"
+    "main.ff58957d.css.map": "/my-portfolio/static/css/main.ff58957d.css.map",
+    "main.a0c517aa.js.map": "/my-portfolio/static/js/main.a0c517aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.d28d34fb.css",
-    "static/js/main.11aea566.js"
+    "static/css/main.ff58957d.css",
+    "static/js/main.a0c517aa.js"
   ]
 }
