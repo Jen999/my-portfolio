@@ -19,7 +19,7 @@ export default function EducationContent() {
                         <ul>
                             <li>Major in Electrical Engineering</li>
                             <li>2nd Major in Computing</li>
-                            <li>Grades: CGPA 4.27 / 5.00 (Honours with Distinction; Second Class Upper)</li>
+                            <li>Grades: Honours with Distinction (Second Class Upper)</li>
                             <li><span className="coursestaken">Certifications:</span>
                                 <ul className="softwaremodules">
                                     <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/88d4c2eee3504a609ac5758b9d0ca7f8")}>Machine Learning and AI with Python by HarvardX</li>
@@ -30,6 +30,8 @@ export default function EducationContent() {
                                 <ul>
                                     <li className="software"><span className="listheaders"  onClick={toggle.bind(null, '.software')}>Computing Modules</span>
                                         <ul className="softwaremodules">
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS2103DE/software-engineering")}>Software Engineering (Java)</li>
+                                            <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS2100DE/computer-organisation")}>Computer Organisation (Verilog, C)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/CS2040DE/data-structures-and-algorithms")}>Data Structures and Algorithms (Java)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE3801/data-engineering-principles")}>Data Engineering Principles (Python)</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE4211/data-science-for-the-internet-of-things")}>Data Science for the Internet of Things (Python)</li>

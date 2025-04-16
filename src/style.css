@@ -1032,3 +1032,19 @@ header {
         width: 90vw;
     }
 }
+.jobcard {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.company-logo {
+    width: 6vw;
+    object-fit: contain;
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.jobinfo {
+    flex: 1;
+}
