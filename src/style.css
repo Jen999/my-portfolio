@@ -378,6 +378,8 @@ header {
 }
 .navbar {
     position: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
     top: 0;
     left: 0;
     width: 100%;
