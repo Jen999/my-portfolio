@@ -662,18 +662,18 @@ header {
     text-shadow: 0 0 10px #66fcf1;
 }
 .listheaders::after {
+    content: " →";
+}
+.software.active .listheaders::after, .ee.active .listheaders::after, .math.active .listheaders::after {
     content: "   →";
     white-space: pre;
 }
-.software.active .listheaders::after, .ee.active .listheaders::after, .math.active .listheaders::after {
-    content: " →";
-}
 .softwaremodules, .eemodules, .mathmodules {
     color: #dedfe0;
-    display: block;
+    display: none;
 }
 .software.active .softwaremodules, .ee.active .eemodules, .math.active .mathmodules {
-    display: none;
+    display: block;
 }
 .software.active .listheaders, .ee.active .listheaders, .math.active .listheaders {
     color: #dedfe0;

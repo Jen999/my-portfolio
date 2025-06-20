@@ -6,7 +6,7 @@ export default function AboutMeContent() {
             <div className="aboutme">
                 <header><span className="sectheaders">About Me</span></header>
                 <div>
-                <img src="./publicimages/profpicture.jpg" className="profpic" alt="Not Found"></img>
+                <img src="./publicimages/profpicture2.jpg" className="profpic" alt="Not Found"></img>
                     <h2 className="aboutmetext">
                     Based in Singapore,<br/>
                     NUS EE & Computing<br/>
@@ -18,12 +18,9 @@ export default function AboutMeContent() {
                     I am a recent graduate with a Bachelor's degree in Electrical Engineering and Computing 
                     (Second Major) from the National University of Singapore (NUS).  
                     <br/><br/>
-                    I have a keen interest for programming and software engineering. I am deeply fascinated by the fast-growing advancements and 
-                    applications of technology. I am passionate about learning, exploring, and experiencing new and emerging 
-                    technologies that have the potential to further the capabilites of modern day solutions.
-                    <br/><br/>
-                    I am actively pursuing opportunities to gain valuable exposure and to enhance my technical expertise 
-                    and knowledge in software engineering. I am eager to contribute to the development of impactful solutions.
+                    I have a keen interest for programming and software engineering, and am fascinated by the 
+                    fast-growing advancements in technology. I am eager to contribute to the development of 
+                    impactful solutions.
                 </p>
             </div>
         </section>
