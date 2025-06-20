@@ -680,7 +680,6 @@ header {
     cursor: pointer;
     width: fit-content;
     transition: 0.5s;
-    margin-left: 40px;
 }
 .certifications li:hover {
     color: #fff;
