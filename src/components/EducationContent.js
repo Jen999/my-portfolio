@@ -20,7 +20,7 @@ export default function EducationContent() {
                             <li>Electrical Engineering and Computing (Second Major)</li>
                             <li>Grades: Honours with Distinction (Second Class Upper)</li>
                             <li><span className="coursestaken">Certifications:</span>
-                                <ul className="softwaremodules">
+                                <ul className="certifications">
                                     <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/88d4c2eee3504a609ac5758b9d0ca7f8")}>Machine Learning and AI with Python by HarvardX</li>
                                     <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/019555f326c94469b9f06cdc01153d58")}>Introduction to Java Programming I by HKUSTx</li>
                                 </ul>

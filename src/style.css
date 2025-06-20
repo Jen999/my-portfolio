@@ -558,7 +558,7 @@ header {
     }
     .aboutmetext {
         position: relative;
-        margin-top: 10px;
+        margin-top: 15px;
         display: block;
     }
     .aboutmetext .view {
@@ -671,6 +671,20 @@ header {
 .softwaremodules, .eemodules, .mathmodules {
     color: #dedfe0;
     display: none;
+}
+.certifications {
+    color: #dedfe0;
+    display: block;
+}
+.certifications li {
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+.certifications li:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 .software.active .softwaremodules, .ee.active .eemodules, .math.active .mathmodules {
     display: block;
