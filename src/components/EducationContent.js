@@ -11,14 +11,13 @@ export default function EducationContent() {
                     <p className="school"> 
                         <h2>
                             National University of Singapore
-                            <span>AUG 2021 - MAY 2025 (Expected)</span>
+                            <span>AUG 2021 - JUN 2025</span>
                         </h2>
                         <h3>
                         <br/>Bachelor of Engineering (Honours)
                         </h3>
                         <ul>
-                            <li>Major in Electrical Engineering</li>
-                            <li>2nd Major in Computing</li>
+                            <li>Electrical Engineering and Computing (Second Major)</li>
                             <li>Grades: Honours with Distinction (Second Class Upper)</li>
                             <li><span className="coursestaken">Certifications:</span>
                                 <ul className="softwaremodules">

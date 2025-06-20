@@ -121,7 +121,7 @@ export default function ExperienceContent() {
                             </div>
                         </div>
                     </p>
-                    <h2 className="view"><a target="_blank" rel="noopener noreferrer" href="./Tan_Ling_Jen_Resume.pdf">View Full Résumé</a></h2>
+                    {/* <h2 className="view"><a target="_blank" rel="noopener noreferrer" href="./Tan_Ling_Jen_Resume.pdf">View Full Résumé</a></h2> */}
                 </div>
             </div>
             
