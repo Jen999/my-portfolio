@@ -21,6 +21,7 @@ export default function ProjectsContent() {
                                 </ol>
                                 <h2>
                                 <FaGithub className="github" onClick={redirect.bind(null, "https://github.com/Jen999/spending-tracker")}/>
+                                <BsGlobe className="website" onClick={redirect.bind(null, "https://jen999.github.io/spending-tracker/")}/>
                                 </h2>
                             </div>
                             <img src="./publicimages/spendingtracker.png" className="projpics" alt="Not Found"/>
