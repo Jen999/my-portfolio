@@ -22,11 +22,15 @@ export default function ExperienceContent() {
                                 <br/>TikTok
                                 </h3>
                                 <ul>
-                                    <li>Privacy and Data Protection Office's Defense team (Data Lifecycle Validation)</li>
+                                    <li>Privacy and Data Protection Office's Defense team (Data Validation)</li>
                                 </ul>
                                 <ol>
                                     <li>Go (Golang)</li>
-                                    <li>SQL</li>
+                                    <li>Hive SQL</li>
+                                    <li>Python</li>
+                                    <li>RPC</li>
+                                    <li>Data Lifecycle Validation</li>
+                                    <li>Big Data</li>
                                 </ol>
                             </div>
                         </div>
