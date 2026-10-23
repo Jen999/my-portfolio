@@ -7,7 +7,7 @@ export default function Certifications() {
     return (
         <section id="experience">
             <div className="experience">
-                <header><span className="sectheaders">Certifications & Achievements</span></header>
+                <header><span className="sectheaders">Certifications</span></header>
                 <div className="exptitle">
                     <p className="cards" onClick={redirect.bind(null, "https://www.credly.com/badges/2b69f6d0-3a67-4695-bdb3-05b28c1e8cd3/public_url")}> 
                         <div className="jobcard">

@@ -15,7 +15,7 @@ export default function HomePageContent() {
             <span>N</span>
           </h1>
           <p>
-            I'm an aspiring cybersecurity professional
+            Here's my journey into cybersecurity.
           </p>
       </div>
     </section>
