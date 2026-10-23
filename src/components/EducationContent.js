@@ -17,9 +17,13 @@ export default function EducationContent() {
                         <br/>Bachelor of Engineering (Honours)
                         </h3>
                         <ul>
-                            <li>Electrical Engineering and Computing (Second Major)</li>
-                            <li>Grades: Honours with Distinction (Second Class Upper)</li>
-                            <li><span className="coursestaken">Certifications:</span>
+                            <li>Electrical Engineering with Honours and a Second Major in Computing</li>
+                            <li><span className="coursestaken">Grades:</span>
+                                <ul className="certifications">
+                                    <li>Honours with Distinction (Second Class Upper Honours)</li>    
+                                </ul>
+                            </li>
+                            <li><span className="coursestaken">Academic Certifications:</span>
                                 <ul className="certifications">
                                     <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/88d4c2eee3504a609ac5758b9d0ca7f8")}>Machine Learning and AI with Python by HarvardX</li>
                                     <li onClick={redirect.bind(null, "https://courses.edx.org/certificates/019555f326c94469b9f06cdc01153d58")}>Introduction to Java Programming I by HKUSTx</li>
@@ -53,7 +57,7 @@ export default function EducationContent() {
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE1111A/electrical-engineering-principles-and-practice-i")}>Electrical Engineering Principles and Practice I</li>
                                         </ul>
                                     </li>
-                                    {/* <li className="math"><span className="listheaders" onClick={toggle.bind(null, '.math')}>Mathematics and Statistics</span>
+                                    <li className="math"><span className="listheaders" onClick={toggle.bind(null, '.math')}>Mathematics and Statistics</span>
                                         <ul className="mathmodules">
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/EE2012/analytical-methods-in-electrical-and-computer-engineering")}>Analytical Methods in Electrical and Computer Engineering</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/MA1508E/linear-algebra-for-engineering")}>Linear Algebra for Engineering</li>
@@ -61,8 +65,7 @@ export default function EducationContent() {
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/MA1511/engineering-calculus")}>Engineering Calculus</li>
                                             <li onClick={redirect.bind(null, "https://nusmods.com/courses/GEA1000/quantitative-reasoning-with-data")}>Quantitative Reasoning with Data</li>
                                         </ul>
-
-                                    </li> */}
+                                    </li>
                                 </ul>
                             </li>
                         </ul>

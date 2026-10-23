@@ -5,6 +5,7 @@ import dsoLogo from "../assets/logos/dso-logo.png";
 import stenggLogo from "../assets/logos/stengg-logo.png";
 import ncsLogo from "../assets/logos/ncs-logo.png";
 import panasonicLogo from "../assets/logos/panasonic-logo.png";
+import alephLogo from "../assets/logos/aleph-logo.png"
 
 
 export default function ExperienceContent() {
@@ -13,16 +14,40 @@ export default function ExperienceContent() {
             <div className="experience">
                 <header><span className="sectheaders">Work Experience</span></header>
                 <div className="exptitle">
+                    <p className="cards" onClick={redirect.bind(null, "https://www.redalphacyber.com/")}> 
+                        <div className="jobcard">
+                            <img src={alephLogo} alt="alephLogo" className="company-logo" />
+                            <div className="jobinfo">
+                                <h2>Associate Cybersecurity Specialist<span>Jul 2026 - Present</span></h2>
+                                <h3>
+                                <br/>Aleph (formerly Red Alpha Cybersecurity)
+                                </h3>
+                                <ul>
+                                    <li>Undertaking intensive, hands-on cybersecurity training across penetration testing, network security, digital forensics, and malware analysis.</li>
+                                    <li>Developing red- and blue-team capabilities through controlled labs and practical assessments</li>
+                                </ul>
+                                <ol>
+                                    <li>Penetration Testing</li>
+                                    <li>Incident Response</li>
+                                    <li>Threat Investigation</li>
+                                    <li>Network Forensics</li>
+                                    <li>Operating Systems</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </p>
                     <p className="cards" onClick={redirect.bind(null, "https://www.tiktok.com/en/")}> 
                         <div className="jobcard">
                             <img src={tiktokLogo} alt="tiktokLogo" className="company-logo" />
                             <div className="jobinfo">
-                                <h2>Software Development Engineer in Test (Intern to Full-time)<span>Jan 2025 - Present</span></h2>
+                                <h2>Software Development Engineer in Test (Intern to Full-time)<span>Jan 2025 - Jun 2026</span></h2>
                                 <h3>
                                 <br/>TikTok
                                 </h3>
                                 <ul>
-                                    <li>Privacy and Data Protection Office's Defense team (Data Validation)</li>
+                                    <li>Delivered privacy compliance and data governance projects under the Privacy and Data Protection Office's Defense team (Data Validation).</li>
+                                    <li>Collaborated with CN and US engineering teams to design, develop, and optimize a multi-region automated data validation platform.</li>
+                                    <li>Built a scalable data preparation and scanning pipeline to validate large volumes of object storage files, accelerating downstream validation workflows.</li>
                                 </ul>
                                 <ol>
                                     <li>Go (Golang)</li>

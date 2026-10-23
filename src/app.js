@@ -9,6 +9,7 @@ import ExperienceContent from "./components/ExperienceContent";
 import ProjectsContent from "./components/ProjectsContent";
 import EducationContent from "./components/EducationContent";
 import LightDarkMode from "./components/LightDarkMode";
+import Certifications from "./components/Certifications";
 
 export const ThemeContext = createContext(null);
 
@@ -25,6 +26,7 @@ export default function App() {
             <HomePageLinks />
             <AboutMeContent />
             <EducationContent />
+            <Certifications />
             <ExperienceContent />
             <ProjectsContent />
         </div>
