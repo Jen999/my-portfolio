@@ -15,7 +15,7 @@ export default function Certifications() {
                             <div className="jobinfo">
                                 <h2>GIAC Certified Incident Handler</h2>
                                 <h3>
-                                <br/>Issued by Global Information ASsurance Certification (GIAC)
+                                <br/>Issued by Global Information Assurance Certification (GIAC)
                                 </h3>
                                 <ul>
                                     <li>Passed with a score of 99%</li>
@@ -37,7 +37,7 @@ export default function Certifications() {
                             <div className="jobinfo">
                                 <h2>GIAC Advisory Board</h2>
                                 <h3>
-                                <br/>Issued by Global Information ASsurance Certification (GIAC)
+                                <br/>Issued by Global Information Assurance Certification (GIAC)
                                 </h3>
                                 <ul>
                                     <li>Member of the GIAC Advisory Board</li>

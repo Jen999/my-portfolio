@@ -24,7 +24,7 @@ export default function ExperienceContent() {
                                 </h3>
                                 <ul>
                                     <li>Undertaking intensive, hands-on cybersecurity training across penetration testing, network security, digital forensics, and malware analysis.</li>
-                                    <li>Developing red- and blue-team capabilities through controlled labs and practical assessments</li>
+                                    <li>Developing red- and blue-team capabilities through controlled labs and practical assessments.</li>
                                 </ul>
                                 <ol>
                                     <li>Penetration Testing</li>
