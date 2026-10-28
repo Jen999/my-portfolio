@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8db70bbb.css",
-    "main.js": "/my-portfolio/static/js/main.b75c5965.js",
+    "main.css": "/my-portfolio/static/css/main.e6abeb71.css",
+    "main.js": "/my-portfolio/static/js/main.29bad97c.js",
     "static/media/aleph-logo.png": "/my-portfolio/static/media/aleph-logo.32af3cb0fd43efc5cc22.png",
     "static/media/dso-logo.png": "/my-portfolio/static/media/dso-logo.e718740f43f73011c7eb.png",
     "static/media/gcih.png": "/my-portfolio/static/media/gcih.56bc3e78e290d79a86bb.png",
@@ -11,11 +11,11 @@
     "static/media/giac.png": "/my-portfolio/static/media/giac.1da99353484eef01258e.png",
     "static/media/tiktok-logo.png": "/my-portfolio/static/media/tiktok-logo.50a760bcb9e1fcbcb9f1.png",
     "index.html": "/my-portfolio/index.html",
-    "main.8db70bbb.css.map": "/my-portfolio/static/css/main.8db70bbb.css.map",
-    "main.b75c5965.js.map": "/my-portfolio/static/js/main.b75c5965.js.map"
+    "main.e6abeb71.css.map": "/my-portfolio/static/css/main.e6abeb71.css.map",
+    "main.29bad97c.js.map": "/my-portfolio/static/js/main.29bad97c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8db70bbb.css",
-    "static/js/main.b75c5965.js"
+    "static/css/main.e6abeb71.css",
+    "static/js/main.29bad97c.js"
   ]
 }
