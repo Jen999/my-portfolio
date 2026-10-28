@@ -40,7 +40,7 @@ export default function ExperienceContent() {
                         <div className="jobcard">
                             <img src={tiktokLogo} alt="tiktokLogo" className="company-logo" />
                             <div className="jobinfo">
-                                <h2>Software Development Engineer in Test (Intern to Full-time)<span>Jan 2025 - Jun 2026</span></h2>
+                                <h2>Software Development Engineer (Intern to Full-time)<span>Jan 2025 - Jun 2026</span></h2>
                                 <h3>
                                 <br/>TikTok
                                 </h3>

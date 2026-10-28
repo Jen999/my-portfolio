@@ -451,17 +451,17 @@ header {
         font-size: 18px;
     }
 }
-#about, #education, #experience, #projects {
+#about, #education, #certifications, #experience, #projects {
     display: flex;
     overflow: hidden;
     width: 100%;
     height: fit-content;
     background-color: #222222;
 }
-#light #about, #light #education, #light #experience, #light #projects {
+#light #about, #light #education, #light #ceritications, #light #experience, #light #projects {
     background-color: #f5f6ed;
 }
-.aboutme, .education, .experience, .projects {
+.aboutme, .education, .certifications, .experience, .projects {
     flex-direction: column;
     height: fit-content;
     margin-left: 15%;
@@ -472,18 +472,18 @@ header {
     z-index: 5;
 }
 @media (max-width: 1250px) {
-    .aboutme, .education, .experience, .projects {
+    .aboutme, .education, .certifications, .experience, .projects {
         margin-left: 10%;
         margin-right: 10%;
     }
 }
 @media (max-width: 410px) {
-    .aboutme, .education, .experience, .projects {
+    .aboutme, .education, .certifications, .experience, .projects {
         margin-left: 5%;
         margin-right: 5%;
     }
 }
-.aboutme header, .education header, .experience header, .projects header {
+.aboutme header, .education header, .certifications header, .experience header, .projects header {
     position: relative;
     white-space: nowrap;
     margin-top: 30px;
